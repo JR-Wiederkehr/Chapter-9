@@ -32,11 +32,27 @@ int main() {
 
     int current_year = 1900 + ltm->tm_year;
 
+model_year_input:
     cout << "Enter the model year of the car: ";
     cin >> my_car.model_year;
+    if(cin.fail() || my_car.model_year > current_year){
+        cout << "Invalid input. Please enter a valid model year." << endl << endl;
+        cin.clear();
+        cin.ignore(256, '\n');
+        goto model_year_input;
+    }
+purchase_price_input:
     cout << "Enter the purchase price of the car: $";
     cin >> my_car.purchase_price;
+    if(cin.fail() || my_car.purchase_price < 0){
+        cout << "Invalid input. Please enter a valid purchase price." << endl << endl;
+        cin.clear();
+        cin.ignore(256, '\n');
+        goto purchase_price_input;
+    }
 
     my_car.calc_current_value(current_year);
     my_car.print_info();
+
+    system("pause");
 }
