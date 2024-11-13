@@ -94,6 +94,7 @@ CMakeFiles/testSuite.dir/testSuite.cpp.obj: C:/CppProjects/Chapter\ Projects/Cha
   C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_atomic.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_base.h \
+  C:/msys64/ucrt64/include/c++/13.2.0/bits/specfun.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/sstream.tcc \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/std_function.h \
@@ -136,6 +137,7 @@ CMakeFiles/testSuite.dir/testSuite.cpp.obj: C:/CppProjects/Chapter\ Projects/Cha
   C:/msys64/ucrt64/include/c++/13.2.0/cerrno \
   C:/msys64/ucrt64/include/c++/13.2.0/ciso646 \
   C:/msys64/ucrt64/include/c++/13.2.0/clocale \
+  C:/msys64/ucrt64/include/c++/13.2.0/cmath \
   C:/msys64/ucrt64/include/c++/13.2.0/compare \
   C:/msys64/ucrt64/include/c++/13.2.0/condition_variable \
   C:/msys64/ucrt64/include/c++/13.2.0/cstddef \
@@ -183,6 +185,18 @@ CMakeFiles/testSuite.dir/testSuite.cpp.obj: C:/CppProjects/Chapter\ Projects/Cha
   C:/msys64/ucrt64/include/c++/13.2.0/string \
   C:/msys64/ucrt64/include/c++/13.2.0/string_view \
   C:/msys64/ucrt64/include/c++/13.2.0/system_error \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/bessel_function.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/beta_function.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/ell_integral.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/exp_integral.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/gamma.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/hypergeometric.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/legendre_function.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/modified_bessel_func.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_hermite.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_laguerre.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/riemann_zeta.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/special_function_util.h \
   C:/msys64/ucrt64/include/c++/13.2.0/tuple \
   C:/msys64/ucrt64/include/c++/13.2.0/type_traits \
   C:/msys64/ucrt64/include/c++/13.2.0/typeinfo \
@@ -217,6 +231,7 @@ CMakeFiles/testSuite.dir/testSuite.cpp.obj: C:/CppProjects/Chapter\ Projects/Cha
   C:/msys64/ucrt64/include/limits.h \
   C:/msys64/ucrt64/include/locale.h \
   C:/msys64/ucrt64/include/malloc.h \
+  C:/msys64/ucrt64/include/math.h \
   C:/msys64/ucrt64/include/process.h \
   C:/msys64/ucrt64/include/pthread.h \
   C:/msys64/ucrt64/include/pthread_compat.h \
@@ -412,6 +427,8 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/functional_hash.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/modified_bessel_func.tcc:
+
 C:/msys64/ucrt64/include/c++/13.2.0/bits/cpp_type_traits.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_forced.h:
@@ -450,6 +467,8 @@ C:/msys64/ucrt64/include/c++/13.2.0/cctype:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/localefwd.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/cmath:
+
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algobase.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/memory_resource.h:
@@ -467,6 +486,8 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/new_allocator.h:
 C:/msys64/ucrt64/include/c++/13.2.0/bits/node_handle.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/ell_integral.tcc:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream_insert.h:
 
@@ -487,6 +508,8 @@ C:/msys64/ucrt64/include/c++/13.2.0/istream:
 C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_atomic.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_base.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/specfun.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/sstream.tcc:
 
@@ -628,6 +651,8 @@ C:/msys64/ucrt64/include/c++/13.2.0/new:
 
 C:/msys64/ucrt64/include/c++/13.2.0/map:
 
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/bessel_function.tcc:
+
 C:/msys64/ucrt64/include/c++/13.2.0/memory:
 
 C:/msys64/ucrt64/include/c++/13.2.0/optional:
@@ -649,6 +674,24 @@ C:/msys64/ucrt64/include/c++/13.2.0/stdexcept:
 C:/msys64/ucrt64/include/c++/13.2.0/stdlib.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/system_error:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/beta_function.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/exp_integral.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/gamma.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/hypergeometric.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/legendre_function.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_hermite.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_laguerre.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/riemann_zeta.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/special_function_util.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/utility:
 
@@ -705,6 +748,8 @@ C:/msys64/ucrt64/include/io.h:
 C:/msys64/ucrt64/include/locale.h:
 
 C:/msys64/ucrt64/include/malloc.h:
+
+C:/msys64/ucrt64/include/math.h:
 
 C:/msys64/ucrt64/include/process.h:
 
