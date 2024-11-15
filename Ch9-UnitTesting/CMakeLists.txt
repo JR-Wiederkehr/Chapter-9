@@ -15,4 +15,5 @@ add_executable(testSuite testSuite.cpp) # add this executable
 target_link_libraries(testSuite PRIVATE gtest) # link google test to this executable
 
 include(GoogleTest)
+
 gtest_discover_tests(testSuite) # discovers tests by asking the compiled test executable to enumerate its tests
